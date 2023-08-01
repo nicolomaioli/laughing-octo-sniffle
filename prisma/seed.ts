@@ -1,5 +1,5 @@
 import { faker } from '@faker-js/faker';
-import { prisma } from '~/server/db';
+import { prisma } from '~/db';
 
 async function main() {
   console.log('Clear posts');
